@@ -19,6 +19,14 @@ module "rg5" {
   
 }
 
+module "rg6" {
+  source = "../child/rg"
+  rg_name     = "dada-rg6"
+  rg_location = "Central India"
+  
+}
+
+
 
 module "rg2" {
   source = "../child/rg"
