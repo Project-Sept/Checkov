@@ -5,6 +5,21 @@ module "rg" {
   
 }
 
+module "rg4" {
+  source = "../child/rg"
+  rg_name     = "dada-rg4"
+  rg_location = "Central India"
+  
+}
+
+module "rg5" {
+  source = "../child/rg"
+  rg_name     = "dada-rg5"
+  rg_location = "Central India"
+  
+}
+
+
 module "rg2" {
   source = "../child/rg"
   rg_name     = "dada-rg2"
